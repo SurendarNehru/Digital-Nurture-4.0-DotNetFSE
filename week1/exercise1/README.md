@@ -4,6 +4,7 @@
 To maintain consistent and centralized logging across the application, you are tasked with ensuring that only a single instance of the logging utility class exists during the application's execution.
 
 ## Steps Taken:
+
 ## 1.Project Initialization:
 A new C# console application was created to implement the Singleton design pattern.
 
