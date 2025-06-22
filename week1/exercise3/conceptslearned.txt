@@ -1,0 +1,13 @@
+Concepts Discussed
+
+Understanding Big O Notation
+Breaking down algorithm efficiency and scalability through mathematical notation.
+
+Comparison: Linear Search vs. Binary Search
+Comparing performance, applications, and needs of both search algorithms.
+
+Time Complexity Analysis
+Understanding best-case, average-case, and worst-case scenarios for various search methods.
+
+Importance of Sorting for Binary Search
+Understanding that sorting data is necessary to guarantee accurate and efficient binary search results.
