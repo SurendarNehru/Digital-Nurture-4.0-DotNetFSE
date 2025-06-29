@@ -1,4 +1,4 @@
-## Exercise 2: Retrieving Top-N Products per Category Using Ranking Functions
+## Exercise : Ranking and Window Functions
 
 # Scenario:
 You are tasked with retrieving the top 3 most expensive products in each category from a Products table. The challenge involves handling possible price ties and ensuring the most accurate ranking per category.
