@@ -17,8 +17,14 @@ The RANK() function was similarly applied to handle ties. If two or more product
 To assign consecutive ranks even when there are ties, the DENSE_RANK() function was used. It behaves like RANK(), but does not skip rank numbers.
 
 # Output:
+
+## USING ROW NUMBER
 ![ex1 1](https://github.com/user-attachments/assets/b34a0164-c778-4d0c-a501-3e3b9303d7fc)
+
+## USING RANK
 ![ex1 2](https://github.com/user-attachments/assets/e86c5327-7151-4890-a480-64d463ad94ed)
+
+## USING DENSE RANK
 ![ex1 3](https://github.com/user-attachments/assets/6a430004-f8c9-44fe-9a67-d8db94b785ce)
 
 # Conclusion:
