@@ -22,12 +22,14 @@ The retail store needs a system to store and manage product and category data us
 
 **Step 2: Create `AppDbContext` Class**
 ```csharp
+using Microsoft.EntityFrameworkCore;
+using RetailInventory.Models;
 public class AppDbContext : DbContext {
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-        optionsBuilder.UseSqlServer("Your_Connection_String_Here");
+        optionsBuilder.UseSqlite("Data Source=Retail.db");
     }
 }
 ```
