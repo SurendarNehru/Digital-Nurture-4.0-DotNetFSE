@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Understand the concept of RESTful Web Service, Web API, and Microservices
 * Learn about HTTP request and response flow
